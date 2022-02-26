@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(231, 184, 96);
+ 
+  }
+
+  
+  #buttonStyle {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #break-length,
+  #session-length {
+    font-size: 2em;
+    background-color: rgb(231, 184, 96);
+    color: black;
+  }
+  
+  #line {
+    border: 1px solid rgb(15, 15, 15);
+  }
+  
+  #timerContainer {
+    margin: 2em 5em;
+  }
+  
+  #insideContainer {
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 1em;
+   background-color: moccasin;
+    /* background-repeat: no-repeat; */
+  }
+  
+  #time-left,
+  #timer-label {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+  }
+  
+  #TimerButtons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2em;
+  }
+
+  button{
+      background-color: rgb(60, 60, 63);
+      color: rgb(255, 255, 255);
+      border-radius: 8px;
+  }
